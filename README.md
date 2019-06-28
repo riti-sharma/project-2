@@ -10,10 +10,15 @@ MVP/PostMVP:
 My project reaches the MVP with 6 compnents planned that include the following: 
 
 Header.jsx - the header 
+
 Form.jsx - the form where an artist and song can be inputed 
+
 Lyrics.jsx - the lyrics being rendered
+
 About.jsx - the about section of the homepage
+
 PicSection.jsx - the grid of photos on the homepage
+
 Footer.jsx - the footer 
 
 My project also meets the other requirements such as the API, Router, grid etc. Should I finish reaching the MVP, my PostMVP would include an option to add songs to a list and remove them from the list, allowing the user to create their own playlist. 
