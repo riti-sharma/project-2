@@ -8,6 +8,7 @@ The first image is a photo of the homepage. It will include a fixed header, a se
 
 MVP/PostMVP:
 My project reaches the MVP with 6 compnents planned that include the following: 
+
 Header.jsx - the header 
 Form.jsx - the form where an artist and song can be inputed 
 Lyrics.jsx - the lyrics being rendered
