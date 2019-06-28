@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# project-2
 
-In the project directory, you can run:
+Project Description: 
+My project will be a music lyric generator, where the user can enter an artist name and song and get the lyrics to the song they entered in. I will havea a home page with images, information, and a button to take the user to the form for entering a song. The API I am using is here: https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search
 
-### `npm start`
+Wireframes: 
+The first image is a photo of the homepage. It will include a fixed header, a section with a button to route you to the search form, related images in a grid, information about the page, and a footer. The second photo is the page that the use is routed when they click on the "Get some lyrics" button. It is a search form where the user can enter an artist and name of a song to get back the lyrics.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+MVP/PostMVP:
+My project reaches the MVP with 6 compnents planned that include the following: 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Header.jsx - the header 
 
-### `npm test`
+Form.jsx - the form where an artist and song can be inputed 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Lyrics.jsx - the lyrics being rendered
 
-### `npm run build`
+About.jsx - the about section of the homepage
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+PicSection.jsx - the grid of photos on the homepage
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Footer.jsx - the footer 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+My project also meets the other requirements such as the API, Router, grid etc. Should I finish reaching the MVP, my PostMVP would include an option to add songs to a list and remove them from the list, allowing the user to create their own playlist. 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+>>>>>>> 806b0dfb6e687174f6c4de2463aa04d9d53a7fb7
