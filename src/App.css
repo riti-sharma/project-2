@@ -1,33 +1,173 @@
-.App {
-  text-align: center;
+/*Header Section*/
+.header header {
+  width: 100%;
+  margin-top: 100px;
+  top: 0;
+  display: flex; 
+  height: 450px;
+  justify-content: space-around; 
+  border-bottom: 5px solid black; 
+  background-image: linear-gradient(to right, white , white, white, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.header header img {
+  height: 390px;
+  width: 290px; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header header h1 {
+  font-size: 120px; 
+  font-family: 'Monoton', cursive;
+  font-weight: 599;
+  margin-bottom: 150px;
+  border-radius: 60px 60px 80px 80px;
+  text-shadow: 2px 2px #120c5c;
+}
+
+#nav-bar {
+  width: 100%;
+  position: fixed; 
+  height: 100px; 
+  justify-content: space-around;
+  background-image: linear-gradient(to right, white,rgb(190, 240, 231),rgb(234, 253, 251), rgb(143, 204, 194), white);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  top: 0;
 }
 
-.App-link {
-  color: #61dafb;
+#nav-bar a{
+  justify-content: space-between;
+  text-decoration: none;
+  font-family: 'Signika Negative', sans-serif;
+  color: black;
+  font-size: 20px;
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Footer Section*/
+.footer{
+  background-image: linear-gradient(to bottom, rgb(173, 219, 212), white);
+  border-radius: 50px 50px 50px 50px;
+  
+
 }
+
+.footer footer img{
+  border-radius: 100%;
+  height: 230px;
+  width: 230px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.footer footer h3, p, h2{
+  font-family: 'Signika Negative', sans-serif;
+}
+
+
+/*Button Section*/
+.lyrics {
+  border-bottom: 5px solid black;  
+  background-image: url("https://i.imgur.com/fTavGG1.png");
+  height: 450px; 
+  
+}
+
+.lyrics button {
+  height: 70px; 
+  width: 280px; 
+  margin-top: 200px; 
+  font-size: 30px;
+  border-radius: 50px 50px 50px 50px;
+  border: 5px solid black;
+  background-image: linear-gradient(to right, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
+  box-shadow: 5px 10px;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+
+/*Pic Section*/
+#pic-gallery {
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+  background-image: linear-gradient(to right, white,rgb(143, 204, 194),rgb(234, 253, 251), rgb(143, 204, 194), white);
+}
+
+#pic-gallery img {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+  border-radius: 50px 50px 50px 50px;
+}
+
+#pic-gallery p{
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+  background-image: linear-gradient(to right, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
+  margin: 0; 
+  border-radius: 50px 50px 50px 50px;
+}
+
+#pic-gallery h3{
+  font-size: 25px;
+  font-family: 'Monoton', cursive;
+  font-weight: 599;
+  text-shadow: .2px .2px #120c5c;
+  border-radius: 50px 50px 50px 50px;
+}
+
+/*Form Section*/
+.form input{
+  margin: 150px 15px 150px 15px;
+  justify-content: space-around;
+  height: 45px;
+  width: 220px;
+  border-radius: 50px 50px 50px 50px;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 19px;
+  background-image: linear-gradient(to right, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
+  border: 5px solid black;
+  box-shadow: 5px 10px;
+
+
+}
+
+.form label {
+  margin: auto auto auto 20px;
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  width: 10px; 
+  font-weight: 599;
+  text-shadow: .2px .2px #120c5c;
+
+
+  
+}
+
+ .form {
+  background-image: url("https://i.imgur.com/fTavGG1.png");
+  background-size: 100% 71%;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-top: 5px solid black; 
+
+  
+
+}
+
+.results p {
+  font-size: 30px; 
+  margin: auto 450px auto 450px; 
+  font-family: 'Signika Negative', sans-serif;
+
+}
+
+.results {
+  border-top: 5px solid black; 
+  background-image: linear-gradient(to right, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
+}
+
