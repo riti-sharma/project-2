@@ -15,7 +15,7 @@ export default class LyricForm extends React.Component {
     ev.preventDefault();
     const lyrics = await fetchlyrics(this.state.artist, this.state.song);
     this.setState({
-      lyrics: [lyrics]
+      lyrics: [<br />, this.state.song, <br />, this.state.artist, <br />, <br />, lyrics]
     });
   }
 
@@ -31,7 +31,7 @@ export default class LyricForm extends React.Component {
 
     let lyrics;
     if (this.state.lyrics.length > 0) {
-      lyrics = this.state.lyrics[0].split(/\r?\n/g)
+      lyrics = this.state.lyrics[1].split(/\r?\n/g)
     }
 
     return (

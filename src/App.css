@@ -29,7 +29,7 @@
   position: fixed; 
   height: 100px; 
   justify-content: space-around;
-  background-image: linear-gradient(to right, white,rgb(190, 240, 231),rgb(234, 253, 251), rgb(143, 204, 194), white);
+  background-image: linear-gradient(to right, rgb(190, 240, 231), white,rgb(190, 240, 231),white, rgb(190, 240, 231), white, rgb(190, 240, 231));
   display: flex;
   align-items: center;
   top: 0;
@@ -42,15 +42,18 @@
   color: black;
   font-size: 20px;
 
+}
 
-
+#nav-bar a:hover, a:active {
+  font-size: 150%;
+  
 }
 
 /*Footer Section*/
 .footer{
   background-image: linear-gradient(to bottom, rgb(173, 219, 212), white);
   border-radius: 50px 50px 50px 50px;
-  
+  text-align: center;
 
 }
 
@@ -72,7 +75,7 @@
   border-bottom: 5px solid black;  
   background-image: url("https://i.imgur.com/fTavGG1.png");
   height: 450px; 
-  
+  text-align: center;
 }
 
 .lyrics button {
@@ -85,6 +88,7 @@
   background-image: linear-gradient(to right, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
   box-shadow: 5px 10px;
   font-family: 'Signika Negative', sans-serif;
+
 }
 
 
@@ -110,6 +114,7 @@
   background-image: linear-gradient(to right, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
   margin: 0; 
   border-radius: 50px 50px 50px 50px;
+  text-align: center;
 }
 
 #pic-gallery h3{
@@ -154,8 +159,7 @@
   background-repeat: no-repeat;
   height: 500px;
   border-top: 5px solid black; 
-
-  
+  text-align: center;
 
 }
 
