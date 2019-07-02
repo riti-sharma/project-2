@@ -10,17 +10,19 @@ The first image is a photo of the homepage. It will include a fixed header, a se
 MVP/PostMVP:
 My project reaches the MVP with 6 compnents planned that include the following: 
 
-Header.jsx - the header 
+Header.jsx - set up for the header of the pages
 
-Form.jsx - the form where an artist and song can be inputed 
+LyricForm.jsx - the form where an artist and song can be inputed and the lyrics will render
 
-Lyrics.jsx - the lyrics being rendered
+Lyrics.jsx - the section with the lyrics button that takes you to the form page
 
-About.jsx - the about section of the homepage
+Nav.jsx - the fixed navigational bar that takes you to different parts of the page and to the home page
 
 PicSection.jsx - the grid of photos on the homepage
 
-Footer.jsx - the footer 
+Footer.jsx - the footer with contact information
+
+It will also include a file in the services folder called api-helper.js where I will retrieve information from the api.
 
 My project also meets the other requirements such as the API, Router, grid etc. Should I finish reaching the MVP, my PostMVP would include an option to add songs to a list and remove them from the list, allowing the user to create their own playlist. 
 

@@ -175,3 +175,33 @@
   background-image: linear-gradient(to right, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
 }
 
+@media only screen 
+  and (max-width: 480px) {
+
+    .header header {
+    width: 100%;
+    height: 100%;
+
+    }
+
+    .header header h1 {
+    width: 100%;
+    }
+  
+
+   #pic-gallery {
+     width: 100%;
+  }
+
+  .lyrics {
+    width: 100%;
+    display: flex; 
+    text-decoration: none;
+
+  }
+
+  .lyrics button {
+    text-decoration: none;
+  }
+  
+  }

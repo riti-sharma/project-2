@@ -33,7 +33,6 @@ export default class LyricForm extends React.Component {
     if (this.state.lyrics.length > 0) {
       lyrics = this.state.lyrics[1].split(/\r?\n/g)
     }
-
     return (
       <div className="form">
         <form onSubmit={this.handleSubmit}>
