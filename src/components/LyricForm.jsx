@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from './Footer';
+
 import { fetchlyrics } from '../services/api-helper';
 
 export default class LyricForm extends React.Component {
@@ -57,12 +59,13 @@ export default class LyricForm extends React.Component {
         <div className="results">
           <h3>{this.state.lyrics.length > 0 ? this.state.song : ""}</h3>
           <h3>{this.state.lyrics.length > 0 ? this.state.artist : ""}</h3>
-          <div>
+          <div className="lyricfooter">
             {
               lyrics.map((line, index) => (
                 <p key={index}>{line}</p>
               ))
             }
+
           </div>
         </div>
       </div>

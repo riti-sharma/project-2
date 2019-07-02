@@ -5,6 +5,7 @@ import LyricForm from './components/LyricForm'
 import Home from './components/Home'
 import Nav from './components/Nav'
 import { Route } from 'react-router-dom'
+import Footer from './components/Footer'
 
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
           <Route path="/" exact render={() => <Home />} />
           <Route path="/lyrics" render={() => <LyricForm />} />
         </main>
+
       </div>
     );
   }
