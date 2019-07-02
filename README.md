@@ -1,6 +1,8 @@
 
 # project-2
 
+Project Surge Link: http://lyric-generator.surge.sh/
+
 Project Description: 
 My project will be a music lyric generator, where the user can enter an artist name and song and get the lyrics to the song they entered in. I will havea a home page with images, information, and a button to take the user to the form for entering a song. The API I am using is here: https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search
 
