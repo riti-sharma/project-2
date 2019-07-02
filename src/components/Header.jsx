@@ -7,9 +7,6 @@ function Header() {
         <img src={"https://i.imgur.com/ODgkTKd.jpg"} alt="Logo"></img>
         <h1>Lyric Generator</h1>
       </header>
-      <main>
-
-      </main>
     </div>
   )
 }

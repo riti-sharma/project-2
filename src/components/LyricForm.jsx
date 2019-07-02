@@ -15,7 +15,7 @@ export default class LyricForm extends React.Component {
     ev.preventDefault();
     const lyrics = await fetchlyrics(this.state.artist, this.state.song);
     this.setState({
-      lyrics: [<br />, this.state.song, <br />, this.state.artist, <br />, <br />, lyrics]
+      lyrics: lyrics
     });
   }
 
@@ -29,22 +29,24 @@ export default class LyricForm extends React.Component {
 
   render() {
 
-    let lyrics;
+    let lyrics = [];
+
     if (this.state.lyrics.length > 0) {
-      lyrics = this.state.lyrics[1].split(/\r?\n/g)
+      lyrics = this.state.lyrics.split(/\r?\n/)
     }
+
     return (
       <div className="form">
         <form onSubmit={this.handleSubmit}>
           <label>Artist:
-          <input
+     <input
               type="text"
               name="artist"
               onChange={this.handleChange}></input>
           </label>
 
           <label>Song:
-          <input
+     <input
               type="text"
               name="song"
               onChange={this.handleChange}>
@@ -53,7 +55,15 @@ export default class LyricForm extends React.Component {
           <input type="submit" value="Submit"></input>
         </form>
         <div className="results">
-          <p>{this.state.lyrics}</p>
+          <h3>{this.state.lyrics.length > 0 ? this.state.song : ""}</h3>
+          <h3>{this.state.lyrics.length > 0 ? this.state.artist : ""}</h3>
+          <div>
+            {
+              lyrics.map((line, index) => (
+                <p key={index}>{line}</p>
+              ))
+            }
+          </div>
         </div>
       </div>
     )

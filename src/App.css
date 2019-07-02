@@ -2,6 +2,7 @@
 .header header {
   width: 100%;
   margin-top: 100px;
+  padding-bottom: 150px;
   top: 0;
   display: flex; 
   height: 450px;
@@ -19,7 +20,6 @@
   font-size: 120px; 
   font-family: 'Monoton', cursive;
   font-weight: 599;
-  margin-bottom: 150px;
   border-radius: 60px 60px 80px 80px;
   text-shadow: 2px 2px #120c5c;
 }
@@ -163,15 +163,15 @@
 
 }
 
-.results p {
+.results p, h3 {
   font-size: 30px; 
-  margin: auto 450px auto 450px; 
   font-family: 'Signika Negative', sans-serif;
 
 }
 
 .results {
   border-top: 5px solid black; 
+  padding-bottom: 50px; 
   background-image: linear-gradient(to right, rgb(242, 218, 238), rgb(216, 203, 233), lightblue, rgb(211, 242, 229), rgb(242, 250, 217), rgb(255, 241, 212)); 
 }
 
@@ -180,28 +180,59 @@
 
     .header header {
     width: 100%;
-    height: 100%;
-
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
     }
 
     .header header h1 {
-    width: 100%;
+      width: 100%;
+      font-size: 40px;
+      
+    }
+    .header header img {
+      height: 100px;
+      width: 70px; 
     }
   
 
    #pic-gallery {
      width: 100%;
+     grid-template-columns: 1fr;
+  }
+
+  #pic-gallery p{
+    
+    font-size: 20px;
   }
 
   .lyrics {
     width: 100%;
-    display: flex; 
-    text-decoration: none;
-
+    
   }
 
-  .lyrics button {
+  main a{
     text-decoration: none;
   }
   
+  form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.form input {
+  margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+
+.results p{
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+ 
+
   }
